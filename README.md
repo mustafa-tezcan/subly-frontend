@@ -1,50 +1,101 @@
-# Welcome to your Expo app 👋
+# 📱 Subly Frontend - Abonelik Takip Mobil Uygulaması
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Subly, kullanıcıların dijital aboneliklerini kolayca **yönetebileceği**, **istatistiklerle takip edebileceği** ve zamanı geldiğinde **bildirimlerle uyarı alabileceği** bir mobil uygulamadır.
 
-## Get started
+Bu frontend proje, React Native kullanılarak geliştirilmiştir ve backend kısmıyla tamamen entegredir. Hem iOS hem de Android için optimize edilmiştir.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 🎯 Uygulama Özellikleri
 
-2. Start the app
+- 🔐 Giriş & Kayıt ekranı
+- 📋 Abonelikleri listeleme ve düzenleme
+- ➕ Yeni abonelik ekleme
+- 📊 Harcama istatistiklerini grafiklerle gösterme (aylık trend & kategori dağılımı)
+- 🔔 E-posta & sistem bildirimleri ile abonelik hatırlatmaları
+- 🌐 Çoklu dil desteği
+- 📤 Verileri dışa aktarma
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 🖼️ Arayüzden Görseller
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f34a4dcf-e39a-4364-ae9d-2079ce3b78c7" width="190" style="margin-right: 10px;" />
+  <img src="https://github.com/user-attachments/assets/b9dc0ee5-60f5-44e9-a9ab-7c20ecdf9192" width="190" style="margin-right: 10px;" />
+  <img src="https://github.com/user-attachments/assets/8e93166a-ea1a-49d7-8219-8f2070e5f5fb" width="190" style="margin-right: 10px;" />
+  <img src="https://github.com/user-attachments/assets/01d894ad-48a5-49ac-9676-f41547d8f92d" width="190" style="margin-right: 10px;" />
+  <img src="https://github.com/user-attachments/assets/9b9376d8-c108-4b9b-9962-8e83df08e1ab" width="190" />
+</p>
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🧪 Kullanılan Teknolojiler
 
-## Get a fresh project
+| Teknoloji | Açıklama |
+|----------|----------|
+| **React Native** | Mobil uygulama çatısı |
+| **Expo** | Hızlı geliştirme ve test ortamı |
+| **React Navigation** | Sayfalar arası geçiş |
+| **Redux Toolkit** | Global state yönetimi |
+| **Victory Native** | Grafik çizimi (doughnut, line chart) |
+| **i18n** | Çoklu dil desteği |
+| **Axios** | API çağrıları için |
 
-When you're ready, run:
+---
+
+## ⚙️ Kurulum
+
+1. Depoyu klonla:
 
 ```bash
-npm run reset-project
+git clone https://github.com/mustafa-tezcan/subly-frontend.git
+cd subly-frontend
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Paketleri yükle:
 
-## Learn more
+```bash
+npm install
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+3. Gerekli çevresel değişkenleri `.env` dosyasına ekle:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```
+API_URL=https://your-api-url.com
+```
 
-## Join the community
+4. Uygulamayı başlat:
 
-Join our community of developers creating universal apps.
+```bash
+npx expo start
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+## 🔧 Geliştirme Önerileri / İyileştirmeler
+
+- ✅ **Dark mode** desteği eklenebilir.
+- ✅ Bildirimler için **push notification** entegrasyonu yapılabilir.
+- ✅ UI bileşenlerinde **TypeScript** ile daha güvenli yapı kurulabilir.
+- ✅ Formlarda yup + formik ile **gelişmiş doğrulama** eklenebilir.
+- ✅ PWA desteği ile web üzerinden de çalışabilir hale getirilebilir.
+- ✅ Erişilebilirlik (accessibility) için testler yapılabilir.
+
+---
+
+## 🔄 Backend Entegrasyonu
+
+Tüm abonelik verileri ve hatırlatmalar, [subly-backend](https://github.com/mustafa-tezcan/subly-backend) API’si ile senkronize çalışır.
+
+---
+
+## 📄 Lisans
+
+MIT Lisansı © 2025 Mustafa Tezcan
+
+---
+
+## ✉️ İletişim
+
+GitHub: [@mustafa-tezcan](https://github.com/mustafa-tezcan)  
+Mail: mustafa@example.com
