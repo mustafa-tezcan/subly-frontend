@@ -41,7 +41,6 @@ Bu frontend proje, React Native kullanılarak geliştirilmiştir ve backend kıs
 | **Expo** | Hızlı geliştirme ve test ortamı |
 | **React Navigation** | Sayfalar arası geçiş |
 | **Redux Toolkit** | Global state yönetimi |
-| **Victory Native** | Grafik çizimi (doughnut, line chart) |
 | **i18n** | Çoklu dil desteği |
 | **Axios** | API çağrıları için |
 
