@@ -1,3 +1,7 @@
+<p align="center">
+  <img width="286.2" height="327.6" alt="logo" src="https://github.com/user-attachments/assets/6c917fc5-e283-48b9-97f8-883dfd4beeef" />
+</p>
+
 # 📱 Subly Frontend - Abonelik Takip Mobil Uygulaması
 
 Subly, kullanıcıların dijital aboneliklerini kolayca **yönetebileceği**, **istatistiklerle takip edebileceği** ve zamanı geldiğinde **bildirimlerle uyarı alabileceği** bir mobil uygulamadır.
