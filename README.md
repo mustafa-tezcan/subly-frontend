@@ -101,4 +101,4 @@ MIT Lisansı © 2025 Mustafa Tezcan
 ## ✉️ İletişim
 
 GitHub: [@mustafa-tezcan](https://github.com/mustafa-tezcan)  
-Mail: mustafa@example.com
+Mail: mustafatzcn44@gmail.com
